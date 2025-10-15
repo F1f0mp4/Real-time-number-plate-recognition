@@ -19,6 +19,7 @@ To run the project, you need the following dependencies:
 - Ultralytics YOLO (`ultralytics`)
 - NumPy
 - SORT algorithm (`sort.sort`)
+- The video used for testing can be downloaded here.
 
 Install the required packages using:
 ```bash
