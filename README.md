@@ -19,7 +19,6 @@ To run the project, you need the following dependencies:
 - Ultralytics YOLO (`ultralytics`)
 - NumPy
 - SORT algorithm (`sort.sort`)
-- The video used for testing can be downloaded here.
 
 Install the required packages using:
 ```bash
@@ -38,14 +37,14 @@ git clone https://github.com/abewley/sort.git
   - `read_license_plate`: Processes license plate images to extract text.
   - `write_csv`: Saves results to a CSV file.
 - `models/license_plate_detector.pt`: Placeholder for the custom-trained YOLO model for license plate detection (not yet trained).
-- `sample.mp4`: Sample video file for testing (replace with your own video or use a camera feed).
+- `sample.mp4`: Sample video file for testing (e.g., [Traffic Flow in the Highway](https://www.pexels.com/video/traffic-flow-in-the-highway-2103099/)). Replace with your own video or use a camera feed.
 - `test.csv`: Output file containing detection and recognition results.
 
 ## Usage
 1. **Prepare the Environment**:
    - Ensure all dependencies are installed.
    - Place the `yolov8n.pt` model in the project directory (available from Ultralytics).
-   - Add a video file (`sample.mp4`) or modify `main.py` to use a camera feed by replacing `cv2.VideoCapture('sample.mp4')` with `cv2.VideoCapture(0)`.
+   - Add a video file (`sample.mp4`) or modify `main.py` to use a camera feed by replacing `cv2.VideoCapture('sample.mp4')` with `cv2.VideoCapture(0)`. A sample video can be downloaded from [Pexels](https://www.pexels.com/video/traffic-flow-in-the-highway-2103099/).
 
 2. **Run the Script**:
    ```bash
